@@ -1,0 +1,98 @@
+.timeline_line {
+  fill: none;
+  stroke: #b46d75;
+  stroke-width: 2.5px;
+}
+
+div.tooltip {
+  border: 0;
+  border-radius: 8px;
+  font: 12px sans-serif;
+  height: 32px;
+  padding: 2px;
+  position: absolute;
+  pointer-events: none;
+  text-align: center;
+  width: 100px;
+  z-index: 1;
+}
+
+.timeline_table tr:last-child td,
+.timeline_table tfoot td {
+  border-bottom: none;
+}
+
+.timeline_table thead tr th:nth-child(-n + 2) {
+  min-width: 70px;
+}
+
+.chart {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+.axis path,.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: #33b5e5;
+}
+
+.bar-failed {
+  fill: #CC0000;
+}
+
+.bar-running {
+  fill: #669900;
+}
+
+.bar-succeeded {
+  fill: #33b5e5;
+}
+
+.bar-killed {
+  fill: #ffbb33;
+}
+
+.timeline_table th,
+.timeline_table tbody tr td:nth-child(-n + 2),
+.timeline_table tfoot td {
+  border-bottom: 1px solid #acd8e4;
+  border-right: 1px solid #82bae4;
+  color: #3A3838;
+  font-weight: bold;
+}
+
+.timeline_table {
+  background-color: #eaf5f2;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-size: 9pt;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.timeline_table tr:first-child th:last-child,
+.timeline_table tfoot td:last-child {
+  border-right: none;
+}
+
+.timeline_table tr {
+  min-height: 40px;
+}
+
+.timeline_table tfoot td {
+  border-top: 1px solid #E4E4E4;
+}
+
+.timeline_table td, .timeline_table th {
+  padding: 10px;
+  text-align: center;
+  width: 42px;
+}
